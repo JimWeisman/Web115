@@ -1,0 +1,91 @@
+body {
+    background: yellow;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    max-width: 1060px;
+    min-height: 50px;
+    background: green;
+    border: 2px solid #5c0c22;
+    box-shadow: 3px 3px 2px purple;
+    font: #2d2f38;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+#motion {
+    min-height: 500px;
+}
+
+#jester {
+    position: relative;
+    left: 50px;
+    -webkit-animation-name: jester-move;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s;
+    /* Chrome, Safari, Opera */
+    animation-name: jester-move;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+
+#jester2 {
+    position: relative;
+    left: 50px;
+    -webkit-animation-name: jester-move;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s;
+    /* Chrome, Safari, Opera */
+    animation-name: jester-move;
+    animation-duration: 6s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+#jester3 {
+    position: relative;
+    left: 50px;
+    -webkit-animation-name: jester-move;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s;
+    /* Chrome, Safari, Opera */
+    animation-name: jester-move;
+    animation-duration: 6s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+@keyframes jester-move {
+    0% {
+        left: 50px;
+        top: 0px;
+    }
+    25% {
+        left: 900px;
+        top: 0px;
+    }
+    50% {
+        left: 900px;
+        top: 250px;
+    }
+    75% {
+        left: 50px;
+        top: 250px;
+    }
+    100% {
+        left: 50px;
+        top: 0px;
+    }
+}
+
+code {
+    font-weight: 500;
+    font-size: 1.1em;
+}
