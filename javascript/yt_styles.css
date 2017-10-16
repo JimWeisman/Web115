@@ -1,0 +1,313 @@
+/*iframe css sheet */
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: gold;
+}
+
+
+.container {
+	max-width: 1000px;
+	margin: 10px auto;
+	float: center;
+}
+
+
+.container2 {
+	border: 10px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	clear: both;
+	overflow: auto;
+	max-width: auto;
+	background-color: #000000;
+}
+
+
+
+.div1 {
+
+	color: black;
+	background-color: #60F;
+	clear: left;
+	width: auto;
+	height: auto;
+	text-align: center;
+	padding: none;
+	margin: 20px auto;
+	border-radius: 5px;
+
+}
+
+
+.div2 {
+
+	color: black;
+	background-color: green;
+	clear: left;
+	width: 50%;
+	height: 350px;
+	text-align: center;
+	margin: 20px auto;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+.main {
+	width: 80%;
+	height: auto;
+	background-color: blue;
+	float: center;
+	margin: 50px 50px;
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+}
+
+.main2 {
+	width: 70%;
+	height: auto;
+	background-color: blue;
+	float: center;
+	margin: 20px auto;
+	border-radius: 5px;
+	padding: 15px 1px 5px 10px
+}
+
+.aside {
+	width: 14%;
+	min-height: 414px;
+	background-color: green;
+	float: right;
+	margin: 20px auto;
+	border-radius: 5px;
+	text-align: right;
+}
+
+.aside2 {
+	width: 14%;
+	min-height: 414px;
+	background-color: green;
+	float: left;
+	margin: 20px auto;
+	border-radius: 5px;
+	text-align: left;
+}
+
+.aside3 {
+	width: 10%;
+	min-height: 10px;
+	background-color: red;
+	float: left;
+	float: top;
+
+}
+
+.footer {
+
+	color: white;
+	background-color: green;
+	width: auto;
+	height: 50px;
+	text-align: center;
+
+	border-radius: 5px;
+	float: middle;
+}
+
+nav {
+	text-align: center;
+	background-color: #60F;
+	color: green;
+	width: auto;
+	float: middle;
+}
+
+nav2 {
+	text-align: center;
+	color: white;
+}
+
+
+nav a {
+	padding: 5px 15px;
+	margin: 5px 5px;
+	background: #808080;
+	text-decoration: none;
+	font-weight: 600;
+	color: #000000;
+	border-radius: 5px;
+	/*border: 2px #808080 solid; */
+}
+
+nav a:visited {
+	color: black;
+}
+
+nav a:hover {
+	background: #000000;
+	color: green;
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+	background-color: transparent;
+	text-decoration: underline;
+
+}
+
+a:active {
+	color: green;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.floating-box {
+	display: inline-block;
+	width: 150px;
+	height: 75px;
+	margin: 10px;
+	border: none;
+	color: #000000;
+}
+
+.after-box {
+	clear: left;
+}
+
+table {
+	width: 80%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th {
+	color: black;
+	text-align: center;
+	padding: 5px;
+}
+
+.headerrow th {
+	border-bottom: 3px black;
+}
+
+.headercolumn th {
+	text-align: center;
+	border-right: 2px black;
+}
+
+table {
+	width: 80%;
+	margin: 20px auto;
+	border-collapse: collapse;
+}
+
+.oddrow {
+	background: white
+}
+
+
+figure {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 40px;
+	margin-right: 40px;
+	postion: center;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+#formatted img {
+	padding: 5px;
+	margin: 5px;
+	border: 5px solid black;
+	color: #cc6a24 width: 50px;
+	height: 50px;
+}
+
+#boxsize img {
+	padding: 5px;
+	margin: 5px;
+	border: 5px solid black;
+	box-sizing: border-box;
+	color: #cc6a24;
+	width: 150px;
+	height: 150px;
+}
+
+
+.box {
+	width: 25px;
+	height: 25px;
+	padding: 15px;
+	margin: 15px;
+	background-color: #cc6a24;
+
+}
+
+.box2 {
+
+	width: 25px;
+	height: 25px;
+	padding: 15px;
+	margin: 15px;
+	display: inline;
+	background-color: purple;
+
+}
+
+.box3 {
+	width: 150px;
+	height: 150px;
+	padding: 2px;
+	margin: 10px;
+	display: inline-block;
+	background-color: green;
+}
+
+.embed {
+	width: 560px;
+	height: 315px;
+	margin: auto auto;
+}
+
+iframe {
+	width: 560px;
+	margin: 5px 5px;
+	height: auto;
+}
+
+h2 {
+	font-family: 'Princess Sofia', cursive;
+}
+
+h3 {
+	color: white;
+}
+
+#large {
+	width: 65%;
+	height: auto;
+}
