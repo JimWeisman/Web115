@@ -6,7 +6,7 @@
 	<title>php lab</title>
 	<meta name="viewport" content="width=device-width initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<script src="javascript.js"></script>
+	<script src="script1.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
 
 </head>
@@ -22,20 +22,20 @@
 
 
 	<div class="container">
-		
-		<div class="item"><a href="#large"><img src="../images/DaveDebMary.jpeg" alt="Dave, Deb, and Mary" onlcick ="change01()"></a></div>
-		<div class="item"><a href="#large"><img src="../images/nola07.jpg" alt="7" onclick ="change02()"> </a> </div>
-		<div class="item"><a href="#large"><img src="../images/nola11.jpg" alt="11" onclick ="change03()"> </a> </div>
-		<div class="item"><a href="#large"><img src="../images/nola18.jpg" alt="18" onclick ="change04()"> </a></div>
+
+		<div class="item"><a href="#large"><img src="http://jweisman.mccdgm.net/web115/images/DaveDebMary.jpeg" alt="the gang" onclick ="change01()"> </a> </div>
+		<div class="item"><a href="#large"><img src="http://jweisman.mccdgm.net/web115/images/nola07.jpg" alt="Lainie looking" onclick ="change02()"> </a> </div>
+		<div class="item"><a href="#large"><img src="http://jweisman.mccdgm.net/web115/images/nola11.jpg" alt="cuban sandwich" onclick ="change03()"> </a> </div>
+		<div class="item"><a href="#large"><img src="http://jweisman.mccdgm.net/web115/images/nola18.jpg" alt="Statue of Jackson on horse" onclick ="change04()"> </a></div>
 		<div class="item"><a href="#large"><img src="../images/foodplate2.jpg" alt="food plate" onclick ="change05()"> </a></div>
 		<div class="item"><a href="#large"><img src="../images/foodplate3.jpg" alt=" the other plate" onclick ="change06()"> </a></div>
-		<div class="item"><a href="#large"><img src="../images/jimmary.jpg" alt="ji and mary" onclick ="change07()"> </a></div>
-		<div class="item"><a href="#large"><img src="../images/theblade5.jpg" alt="the blade logo" onclick ="change08()"></a>
+		<div class="item"><a href="#large"><img src="../images/jimmary.jpg" alt="jim and mary" onclick ="change07()"> </a></div>
+		<div class="item"><a href="#large"><img src="../images/theblade5.jpg" alt="the blade logo" onclick ="change08()"></a></div>
 	</div>
 
 	<div class="aside">
 		<div class="row">
-			<img id="large" src="../images/nola07.jpg" alt="Dave, Deb, and Mary">
+			<img id="large" src="http://jweisman.mccdgm.net/web115/images/DaveDebMary.jpeg" alt="Dave, Deb, and Mary">
 		</div>
 	</div>
 
@@ -56,7 +56,7 @@
 		</div>
 	</div>
 
-    </div>
+
 
 
 

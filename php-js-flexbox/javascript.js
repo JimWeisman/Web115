@@ -1,6 +1,6 @@
 
 function change01(){
- document.getElementById("large").src="../images/DaveDebMary.jpeg";
+ document.getElementById("large").src="http://jweisman.mccdgm.net/web115/images/DaveDebMary.jpeg";
 }
 
 function change02(){
@@ -15,15 +15,15 @@ function change04(){
 }
 
 function change05(){
-    document.getElementById("large").src="../images/foodplate2.jpg";
+    document.getElementById("large").src="http://jweisman.mccdgm.net/web115/images/foodplate2.jpg";
 }
 
 function change06(){
-    document.getElementById("large").src="../images/foodplate3.jpg";
+    document.getElementById("large").src="http://jweisman.mccdgm.net/web115/images/foodplate3.jpg";
 }
 function change07(){
-    document.getElementById("large").src="../images/jimmary.jpg";
+    document.getElementById("large").src="http://jweisman.mccdgm.net/web115/images/jimmary.jpg";
 }
 function change08(){
-    document.getElementById("large")src="../images/theblade5.jpg";
+    document.getElementById("large")src="http://jweisman.mccdgm.net/web115/images/theblade5.jpg";
 }
