@@ -1,0 +1,133 @@
+/* stuff I added*/
+
+.mdl-card__media {
+	/*background-color: rgb (63, 81, 181);*/
+	width: 100%;
+    height: auto;
+}
+
+/*.mdl-button__ripple-container {
+	background-color: black;
+	color: white;
+}*/
+
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {
+	padding-right: 0;
+
+}
+
+img.article-image {
+	width: 100%;
+	height: auto;
+
+}
+
+.portfolio-contact .mdl-textfield {
+	width: 100%;
+}
+
+.portfolio-contact form {
+	max-width: 550px;
+	margin: auto;
+}
+
+.portfolio-contact .mdl-textfield {
+	width: 80%;
+}
+
+/* daves org code*/
+
+/* this is the header background layer */
+
+.demo-ribbon {
+	width: 100%;
+	height: 20vh;
+	background-color: black;
+	flex-shrink: 0;
+}
+
+
+.demo-main {
+	margin-top: 100px;
+	/*margin-top: -35vh;*/
+	flex-shrink: 0;
+}
+
+.demo-header .mdl-layout__header-row {
+	padding-left: 40px;
+}
+
+.demo-container {
+	max-width: 1600px;
+	width: calc(100% - 16px);
+	margin: 0 auto;
+}
+
+.demo-content {
+	border-radius: 2px;
+	padding: 80px 56px;
+	margin-bottom: 80px;
+}
+
+.demo-layout.is-small-screen .demo-content {
+	padding: 40px 28px;
+}
+
+.demo-content h3 {
+	margin-top: 100px;
+}
+
+/* footer begin */
+
+.demo-footer {
+	padding-left: 40px;
+}
+
+.demo-footer .mdl-mini-footer--link-list a {
+	font-size: 13px;
+}
+
+/* footer end */
+
+/* card css begin */
+
+.demo-card-wide.mdl-card {
+	width: 512px;
+}
+
+.demo-card-wide > .mdl-card__title {
+	color: #fff;
+	height: 176px;
+	background: url('../images/e-newsletter1.png') center / cover;
+}
+
+.demo-card-wide > .mdl-card__menu {
+	color: #fff;
+}
+
+/* card css end */
+
+/* demo of the list of three itesm */
+
+.demo-list-three {
+	width: 650px;
+}
+
+
+.demo-card-image.mdl-card {
+	width: 200px;
+	height: 200px;
+	background: url('../images/TechService.jpg') center / cover;
+}
+
+.demo-card-image > .mdl-card__actions {
+	height: 52px;
+	padding: 16px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.demo-card-image__filename {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+}
